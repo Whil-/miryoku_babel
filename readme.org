@@ -105,8 +105,8 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 
 #+NAME: hold
 | BOOT     | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) |         |       | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
-| U_BUTTON | U_NA      | LOCK_OPP    | LOCK_CUR   |         |       | LOCK_CUR   | LOCK_OPP    | U_NA      | U_BUTTON |
-| LGUI     | LALT      | LCTL        | LSFT       | ALGR    | ALGR  | LSFT       | LCTL        | LALT      | LGUI     |
+| U_NA     | U_NA      | LOCK_OPP    | LOCK_CUR   |         |       | LOCK_CUR   | LOCK_OPP    | U_NA      | U_NA     |
+| LSFT     | LGUI      | LALT        | LCTL       | ALGR    | ALGR  | LCTL       | LALT        | LGUI      | LSFT     |
 | U_NP     | U_NP      | U_MEDIA     | U_NAV      | U_MOUSE | U_SYM | U_NUM      | U_FUN       | U_NP      | U_NP     |
 
 
@@ -132,7 +132,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 
 #+NAME: button
 | U_UND | U_CUT | U_CPY | U_PST | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| LGUI  | LALT  | LCTL  | LSFT  |       |       | LSFT  | LCTL  | LALT  | LGUI  |
+| LSFT  | LGUI  | LALT  | LCTL  |       |       | LCTL  | LALT  | LGUI  | LSFT  |
 | U_UND | U_CUT | U_CPY | U_PST | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
 
 #+NAME: button-thumbs
@@ -358,7 +358,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 
 #+NAME: hold-flip
 | BOOT     | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) |       |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
-| LGUI     | LALT      | LCTL        | LSFT       |       |         | LSFT       | LCTL        | LALT      | LGUI     |
+| LSFT     | LGUI      | LALT        | LCTL       |       |         | LCTL       | LALT        | LGUI      | LSFT     |
 | U_BUTTON | ALGR      | LOCK_OPP    | LOCK_CUR   |       |         | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
 | U_NP     | U_NP      | U_FUN       | U_NUM      | U_SYM | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
 
