@@ -98,7 +98,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| U_NP  | U_NP  | ESC   | BSPC  | TAB   | ENT   | SPC   | DEL   | U_NP  | U_NP  |
+| U_NP  | U_NP  | DEL   | BSPC  | TAB   | ENT   | SPC   | ESC   | U_NP  | U_NP  |
 
 
 **** Hold
@@ -351,7 +351,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Thumbs
 
 #+NAME: thumbs-flip
-| U_NP | U_NP | DEL  | SPC  | ENT  | TAB  | BSPC | ESC  | U_NP | U_NP |
+| U_NP | U_NP | ESC  | SPC  | ENT  | TAB  | BSPC | DEL  | U_NP | U_NP |
 
 
 ****** Hold
@@ -471,7 +471,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 |      |      |      |      |      |
 |      |      |      |      |      |
 |      |      |      |      |      |
-| ENT  | SPC  | DEL  | U_NP | U_NP |
+| ENT  | SPC  | ESC  | U_NP | U_NP |
 
 #+NAME: tem-l
 | <l4> | <l4> | <l4> | <l4> | <l4> |
@@ -479,7 +479,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 |      |      |      |      |      |
 |      |      |      |      |      |
 |      |      |      |      |      |
-| U_NP | U_NP | ESC  | BSPC | TAB  |
+| U_NP | U_NP | DEL  | BSPC | TAB  |
 
 
 ** Scripts and Data
