@@ -1,0 +1,7 @@
+(undo-tree-save-format-version . 1)
+"90f177d01980c1f3719cd5cb3a17bb81dae23313"
+[nil nil nil nil (25366 16293 494421 0) 0 nil]
+([nil current ((2173 . 2184) (#("
+" 0 1 (fontified nil line-prefix #("          " 0 10 (face org-indent)) wrap-prefix #("          " 0 10 (face org-indent)))) . 2173) (2172 . 2174) 2071 (t 25366 16156 0 0)) nil (25366 16325 210140 0) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t font-lock-fontified t font-lock-multiline t face (rainbow-delimiters-depth-1-face org-block) help-echo nil src-block t line-prefix #("          " 0 10 (face org-indent)) wrap-prefix #("          " 0 10 (face org-indent)))) . -2107) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . 1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) 2108) ((2107 . 2108)) (25366 16325 209956 0) 0 nil])
+nil

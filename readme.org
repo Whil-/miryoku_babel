@@ -98,16 +98,16 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| DF(U_TAP)  | DF(U_BASE)  | DEL   | BSPC  | TAB   | ENT   | SPC   | ESC   | DF(U_BASE)  | DF(U_TAP) |
+| A  | B | DEL   | BSPC  | TAB   | ENT   | SPC   | ESC   | Y  | O |
 
 
 **** Hold
 
 #+NAME: hold
-| BOOT     | LGUI      | LALT        | LCTL       | ALGR    | ALGR  | LCTL       | LALT        | LGUI      | BOOT     |
+| ESC      | LGUI      | LALT        | LCTL       | ALGR    | ALGR  | LCTL       | LALT        | LGUI      | DEL      |
 | LSFT     | U_NA      | LOCK_OPP    | LOCK_CUR   |         |       | LOCK_CUR   | LOCK_OPP    | U_NA      | LSFT     |
 | U_NA     | U_NA      | U_NA        | U_NA       |         |       | U_NA       | U_NA        | U_NA      | U_NA     |
-| U_NP     | U_NP      | U_MEDIA     | U_NAV      | U_MOUSE | U_SYM | U_NUM      | U_FUN       | U_NP      | U_NP     |
+| CTRL     | ALT       | U_MEDIA     | U_NAV      | U_MOUSE | U_SYM | U_NUM      | U_FUN       | ALT       | CTRL     |
 
 
 *** Nav
@@ -463,7 +463,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 |      |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |      |
-| U_NP | U_NP |      |      |      |      |      |      | U_NP | U_NP |
+|      |      |      |      |      |      |      |      |      |      |
 
 #+NAME: tem-r
 | <l4> | <l4> | <l4> | <l4> | <l4> |
@@ -471,7 +471,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 |      |      |      |      |      |
 |      |      |      |      |      |
 |      |      |      |      |      |
-| ENT  | SPC  | ESC  | U_NP | U_NP |
+| ENT  | SPC  | ALT  |      |      |
 
 #+NAME: tem-l
 | <l4> | <l4> | <l4> | <l4> | <l4> |
@@ -479,7 +479,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 |      |      |      |      |      |
 |      |      |      |      |      |
 |      |      |      |      |      |
-| U_NP | U_NP | DEL  | BSPC | TAB  |
+|      |      | CTRL | BSPC | TAB  |
 
 
 ** Scripts and Data
