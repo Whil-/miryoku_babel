@@ -98,15 +98,15 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| U_NP  | U_NP  | DEL   | BSPC  | TAB   | ENT   | SPC   | ESC   | U_NP  | U_NP  |
+| DF(U_TAP)  | DF(U_BASE)  | DEL   | BSPC  | TAB   | ENT   | SPC   | ESC   | DF(U_BASE)  | DF(U_TAP) |
 
 
 **** Hold
 
 #+NAME: hold
-| BOOT     | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) |         |       | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
-| U_NA     | U_NA      | LOCK_OPP    | LOCK_CUR   |         |       | LOCK_CUR   | LOCK_OPP    | U_NA      | U_NA     |
-| LSFT     | LGUI      | LALT        | LCTL       | ALGR    | ALGR  | LCTL       | LALT        | LGUI      | LSFT     |
+| BOOT     | LGUI      | LALT        | LCTL       | ALGR    | ALGR  | LCTL       | LALT        | LGUI      | BOOT     |
+| LSFT     | U_NA      | LOCK_OPP    | LOCK_CUR   |         |       | LOCK_CUR   | LOCK_OPP    | U_NA      | LSFT     |
+| U_NA     | U_NA      | U_NA        | U_NA       |         |       | U_NA       | U_NA        | U_NA      | U_NA     |
 | U_NP     | U_NP      | U_MEDIA     | U_NAV      | U_MOUSE | U_SYM | U_NUM      | U_FUN       | U_NP      | U_NP     |
 
 
