@@ -98,7 +98,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| U_NP  | U_NP  | ESC   | SPC   | TAB   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+| U_NP  | U_NP  | ESC   | BSPC  | TAB   | ENT   | SPC   | DEL   | U_NP  | U_NP  |
 
 
 **** Hold
@@ -116,7 +116,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
 | CAPS  | LEFT  | DOWN  | UP    | RGHT  |
 | INS   | HOME  | PGDN  | PGUP  | END   |
-| ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+| ENT   | SPC   | DEL   | U_NP  | U_NP  |
 
 
 *** Mouse
@@ -172,7 +172,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | F12  | F7   | F8   | F9   | PSCR |
 | F11  | F4   | F5   | F6   | SLCK |
 | F10  | F1   | F2   | F3   | PAUS |
-| U_NP | U_NP | APP  | SPC  | TAB  |
+| U_NP | U_NP | APP  | BSPC | TAB  |
 
 
 *** Alternative Layouts
@@ -287,7 +287,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
 | LEFT  | DOWN  | UP    | RGHT  | CAPS  |
 | HOME  | PGDN  | PGUP  | END   | INS   |
-| ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+| ENT   | SPC   | DEL   | U_NP  | U_NP  |
 
 
 ****** Mouse
@@ -319,7 +319,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | INS   | HOME  | UP    | END   | PGUP  |
 | CAPS  | LEFT  | DOWN  | RGHT  | PGDN  |
 | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+| ENT   | SPC   | DEL   | U_NP  | U_NP  |
 
 
 ****** Mouse
@@ -351,7 +351,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Thumbs
 
 #+NAME: thumbs-flip
-| U_NP | U_NP | DEL  | BSPC | ENT  | TAB  | SPC  | ESC  | U_NP | U_NP |
+| U_NP | U_NP | DEL  | SPC  | ENT  | TAB  | BSPC | ESC  | U_NP | U_NP |
 
 
 ****** Hold
@@ -387,7 +387,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | PSCR | F7   | F8   | F9   | F12  |
 | SLCK | F4   | F5   | F6   | F11  |
 | PAUS | F1   | F2   | F3   | F10  |
-| TAB  | SPC  | APP  | U_NP | U_NP |
+| TAB  | BSPC | APP  | U_NP | U_NP |
 
 
 ****** Nav
@@ -402,7 +402,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | HOME  | PGDN  | PGUP  | END   | INS   |
 | LEFT  | DOWN  | UP    | RGHT  | CAPS  |
 | U_UND | U_CUT | U_CPY | U_PST | U_RDO |
-| U_NP  | U_NP  | DEL   | BSPC  | ENT   |
+| U_NP  | U_NP  | DEL   | SPC   | ENT   |
 
 
 ******** Mouse
@@ -434,7 +434,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | PGUP  | HOME  | UP    | END   | INS   |
 | PGDN  | LEFT  | DOWN  | RGHT  | CAPS  |
 | U_UND | U_CUT | U_CPY | U_PST | U_RDO |
-| U_NP  | U_NP  | DEL   | BSPC  | ENT   |
+| U_NP  | U_NP  | DEL   | SPC   | ENT   |
 
 
 ******** Mouse
@@ -471,7 +471,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 |      |      |      |      |      |
 |      |      |      |      |      |
 |      |      |      |      |      |
-| ENT  | BSPC | DEL  | U_NP | U_NP |
+| ENT  | SPC  | DEL  | U_NP | U_NP |
 
 #+NAME: tem-l
 | <l4> | <l4> | <l4> | <l4> | <l4> |
@@ -479,7 +479,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 |      |      |      |      |      |
 |      |      |      |      |      |
 |      |      |      |      |      |
-| U_NP | U_NP | ESC  | SPC  | TAB  |
+| U_NP | U_NP | ESC  | BSPC | TAB  |
 
 
 ** Scripts and Data
