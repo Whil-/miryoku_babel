@@ -98,35 +98,33 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| DF(U_TAP)  | DF(U_BASE)  | DEL   | BSPC  | TAB   | ENT   | SPC   | ESC   | DF(U_BASE)  | DF(U_TAP) |
+| DF(U_TAP) | LCTL | DEL | BSPC | TAB | ENT | SPC | ESC | LCTL | DF(U_BASE) |
 
 
 **** Hold
 
 #+NAME: hold
-| BOOT     | LGUI      | LALT        | LCTL       | ALGR    | ALGR  | LCTL       | LALT        | LGUI      | BOOT     |
-| LSFT     | U_NA      | LOCK_OPP    | LOCK_CUR   |         |       | LOCK_CUR   | LOCK_OPP    | U_NA      | LSFT     |
-| U_NA     | U_NA      | U_NA        | U_NA       |         |       | U_NA       | U_NA        | U_NA      | U_NA     |
-| U_NP     | U_NP      | U_MEDIA     | U_NAV      | U_MOUSE | U_SYM | U_NUM      | U_FUN       | U_NP      | U_NP     |
+| BOOT | LGUI | LALT     | LCTL     | ALGR    | ALGR  | LCTL     | LALT     | LGUI | BOOT |
+| LSFT | U_NA | U_NA     | U_NA     |         |       | U_NA     | U_NA     | U_NA | LSFT |
+| U_NA | U_NA | LOCK_OPP | LOCK_CUR |         |       | LOCK_CUR | LOCK_OPP | U_NA | U_NA |
+| U_NP | LCTL | U_MEDIA  | U_NAV    | U_MOUSE | U_SYM | U_NUM    | U_FUN    | LCTL | U_NP |
 
 
 *** Nav
 
 #+NAME: nav-r
-| U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| CAPS  | LEFT  | DOWN  | UP    | RGHT  |
-| INS   | HOME  | PGDN  | PGUP  | END   |
-| ENT   | SPC   | DEL   | U_NP  | U_NP  |
-
+| U_RDO | U_PST | U_CPY | U_CUT | U_UND      |
+| CAPS  | LEFT  | DOWN  | UP    | RGHT       |
+| INS   | HOME  | PGDN  | PGUP  | END        |
+| ENT   | SPC   | DEL   | LCTL  | DF(U_BASE) |
 
 *** Mouse
 
 #+NAME: mouse-r
-| U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-|       | MS_L  | MS_D  | MS_U  | MS_R  |
-|       | WH_L  | WH_D  | WH_U  | WH_R  |
-| BTN1  | BTN3  | BTN2  | U_NP  | U_NP  |
-
+| U_RDO | U_PST | U_CPY | U_CUT | U_UND      |
+|       | MS_L  | MS_D  | MS_U  | MS_R       |
+|       | WH_L  | WH_D  | WH_U  | WH_R       |
+| BTN1  | BTN3  | BTN2  | LCTL  | DF(U_BASE) |
 
 *** Button
 
@@ -142,37 +140,37 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Media
 
 #+NAME: media-r
-| RGB_TOG | RGB_MOD  | RGB_HUI  | RGB_SAI  | RGB_VAI  |
-| EP_TOG  | MPRV     | VOLD     | VOLU     | MNXT     |
-| OUT_TOG | BT_SEL_0 | BT_SEL_1 | BT_SEL_2 | BT_SEL_3 |
-| MSTP    | MPLY     | MUTE     | U_NP     | U_NP     |
+| RGB_TOG | RGB_MOD  | RGB_HUI  | RGB_SAI  | RGB_VAI    |
+| EP_TOG  | MPRV     | VOLD     | VOLU     | MNXT       |
+| OUT_TOG | BT_SEL_0 | BT_SEL_1 | BT_SEL_2 | BT_SEL_3   |
+| MSTP    | MPLY     | MUTE     | LCTL     | DF(U_BASE) |
 
 
 *** Num
 
 #+NAME: num-l
-| [    | 7    | 8    | 9    | ]    |
-| ;    | 4    | 5    | 6    | =    |
-| `    | 1    | 2    | 3    | \    |
-| U_NP | U_NP | DOT  | 0    | MINS |
+| [          |    7 |   8 | 9 | ]    |
+| ;          |    4 |   5 | 6 | =    |
+| `          |    1 |   2 | 3 | \    |
+| DF(U_BASE) | LCTL | DOT | 0 | MINS |
 
 
 *** Sym
 
 #+NAME: sym-l
-| {    | &    | *    | (    | }    |
-| :    | $    | %    | ^    | +    |
-| ~    | !    | @    | #    | PIPE |
-| U_NP | U_NP | (    | )    | _    |
+| {          | &    | * | ( | }    |
+| :          | $    | % | ^ | +    |
+| ~          | !    | @ | # | PIPE |
+| DF(U_BASE) | LCTL | ( | ) | _    |
 
 
 *** Fun
 
 #+NAME: fun-l
-| F12  | F7   | F8   | F9   | PSCR |
-| F11  | F4   | F5   | F6   | SLCK |
-| F10  | F1   | F2   | F3   | PAUS |
-| U_NP | U_NP | APP  | BSPC | TAB  |
+| F12        | F7   | F8  | F9   | PSCR |
+| F11        | F4   | F5  | F6   | SLCK |
+| F10        | F1   | F2  | F3   | PAUS |
+| DF(U_BASE) | LCTL | APP | BSPC | TAB  |
 
 
 *** Alternative Layouts
